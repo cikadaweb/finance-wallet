@@ -1,0 +1,14 @@
+.main {
+}
+.categories {
+    display: grid;
+}
+.categories__card {
+}
+.categories__title {
+}
+.categories__btn {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+}
