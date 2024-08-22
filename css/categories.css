@@ -64,7 +64,60 @@
 .categories__title {
 }
 .categories__btn {
-  width: 30px;
-  height: 30px;
-  background-color: transparent;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px;
+  border-radius: 50%;
+}
+
+.categories__btn:hover {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.9);
+  transition: all 0.3s ease 0s;
+}
+
+.categories__btn:focus-visible {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.9);
+  transition: all 0.3s ease 0s;
+}
+
+.categories__card_a > .categories__btn {
+  background-image: url("../assets/icons/products.svg");
+}
+
+.categories__card_b > .categories__btn {
+  background-image: url("../assets/icons/cafe.svg");
+}
+
+.categories__card_c > .categories__btn {
+  background-image: url("../assets/icons/entertainments.svg");
+}
+
+.categories__card_d > .categories__btn {
+  background-image: url("../assets/icons/transport.svg");
+}
+
+.categories__card_e > .categories__btn {
+  background-image: url("../assets/icons/health.svg");
+}
+
+.categories__card_f > .categories__btn {
+
+}
+
+.categories__card_g > .categories__btn {
+  background-image: url("../assets/icons/gifts.svg");
+}
+
+.categories__card_h > .categories__btn {
+  background-image: url("../assets/icons/family.svg");
+}
+
+.categories__card_i > .categories__btn {
+  background-image: url("../assets/icons/shopping.svg");
+}
+
+.categories__card_j > .categories__btn {
+  background-image: url("../assets/icons/plus-icon.svg");
 }
