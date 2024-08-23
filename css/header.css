@@ -21,8 +21,8 @@
 }
 
 .user-info__account {
-  width: 28px;
-  height: 28px;
+  width: 36px;
+  height: 36px;
   background-image: url("../assets/icons/user-account.svg");
   background-repeat: no-repeat;
   background-size: contain;
@@ -43,8 +43,8 @@
 }
 
 .user-info__edit {
-  width: 28px;
-  height: 28px;
+  width: 36px;
+  height: 36px;
   background-image: url("../assets/icons/user-edit.svg");
   background-repeat: no-repeat;
   background-size: contain;
@@ -59,8 +59,8 @@
 }
 
 .month-picker__prev-btn {
-  width: 28px;
-  height: 28px;
+  width: 36px;
+  height: 36px;
   background-image: url("../assets/icons/prev-btn.svg");
   background-repeat: no-repeat;
   background-size: contain;
@@ -81,8 +81,8 @@
 }
 
 .month-picker__next-btn {
-  width: 28px;
-  height: 28px;
+  width: 36px;
+  height: 36px;
   background-image: url("../assets/icons/next-btn.svg");
   background-repeat: no-repeat;
   background-size: contain;
