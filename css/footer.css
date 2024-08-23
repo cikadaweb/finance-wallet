@@ -1,0 +1,59 @@
+.footer {
+}
+.footer__navigation {
+    background-color: #f7f7f7;
+    padding: 40px;
+}
+.footer__navigation-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -16px;
+}
+.footer__navigation-item {
+    text-align: center;
+    padding: 0 16px;
+    cursor: pointer;
+}
+
+.footer__navigation-btn {
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 36px;
+    margin-bottom: 8px;
+    border-radius: 50%;
+}
+
+.footer__navigation-btn_accounts {
+    background-image: url("../assets/icons/wallet.svg");
+}
+
+.footer__navigation-btn_categories {
+    background-image: url("../assets/icons/categories.svg");
+}
+
+.footer__navigation-btn_operations {
+    background-image: url("../assets/icons/operations.svg");
+}
+
+.footer__navigation-btn_overview {
+    background-image: url("../assets/icons/overview.svg");
+}
+
+.footer__navigation-item:hover > .footer__navigation-btn {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.9);
+    transition: all 0.3s ease 0s;
+}
+
+.footer__navigation-item:focus-visible > .footer__navigation-btn {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.9);
+    transition: all 0.3s ease 0s;
+}
+
+.footer__navigation-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
