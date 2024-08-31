@@ -128,7 +128,6 @@
 }
 
 .categories__card_f > .categories__btn {
-
 }
 
 .categories__card_g > .categories__btn {
@@ -147,12 +146,35 @@
   background-image: url("../assets/icons/plus-icon.svg");
 }
 
+@media (min-width: 360px) {
+  .categories {
+    padding: 14px 0;
+  }
 
-@media (min-width: 560px) {
+  .categories__title {
+    font-size: 12px;
+  }
 
+  .categories__btn {
+    width: 50px;
+    height: 50px;
+    background-size: 26px;
+  }
+
+  .categories-money__title {
+    font-size: 18px;
+  }
+
+  .categories-money__expenses {
+    font-size: 18px;
+  }
+
+  .categories-money__income {
+    font-size: 18px;
+  }
 }
 
-@media (min-width: 820px) {
+@media (min-width: 560px) {
   .categories {
     grid-gap: 8px;
     padding: 20px 0;
@@ -181,6 +203,8 @@
   }
 }
 
-@media (min-width: 1120px) {
+@media (min-width: 820px) {
+}
 
+@media (min-width: 1120px) {
 }
