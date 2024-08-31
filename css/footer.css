@@ -14,6 +14,9 @@
 }
 
 .footer__navigation-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     padding: 0 4px;
     cursor: pointer;
