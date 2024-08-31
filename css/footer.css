@@ -1,27 +1,30 @@
 .footer {
-}
-.footer__navigation {
     background-color: #f7f7f7;
-    padding: 40px;
 }
+
+.footer__navigation {
+    padding: 8px;
+}
+
 .footer__navigation-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 -16px;
+    margin: 0 -4px;
 }
+
 .footer__navigation-item {
     text-align: center;
-    padding: 0 16px;
+    padding: 0 4px;
     cursor: pointer;
 }
 
 .footer__navigation-btn {
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 36px;
+    background-size: 24px;
     margin-bottom: 8px;
     border-radius: 50%;
 }
@@ -53,7 +56,47 @@
 }
 
 .footer__navigation-link {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 500;
     color: #000000;
+}
+
+@media (min-width: 560px) {
+    .footer__navigation-btn {
+        width: 40px;
+        height: 40px;
+        background-size: 28px;
+    }
+}
+
+@media (min-width: 820px) {
+    .footer__navigation {
+        padding: 40px;
+    }
+
+    .footer__navigation-list {
+        margin: 0 -16px;
+    }
+
+    .footer__navigation-item {
+        padding: 0 16px;
+    }
+
+    .footer__navigation-btn {
+        width: 50px;
+        height: 50px;
+        background-size: 32px;
+    }
+
+    .footer__navigation-link {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1120px) {
+    .footer__navigation-btn {
+        width: 60px;
+        height: 60px;
+        background-size: 36px;
+    }
 }
