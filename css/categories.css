@@ -1,4 +1,5 @@
 .main {
+  flex: 1 0 auto;
 }
 .categories {
   display: grid;
@@ -7,12 +8,23 @@
     "e f f g"
     "h f f i"
     "j . . .";
-  grid-gap: 8px;
-  padding: 20px 0;
+  grid-gap: 4px;
+  padding: 10px 0;
 }
 
 .categories__card {
   text-align: center;
+  cursor: pointer;
+}
+
+.categories__card:hover .categories__btn {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.9);
+  transition: all 0.3s ease 0s;
+}
+
+.categories__card:hover .categories__btn {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.9);
+  transition: all 0.3s ease 0s;
 }
 
 .categories__card_a {
@@ -46,14 +58,18 @@
   border-radius: 50%;
 }
 
+.categories-money__title {
+  font-size: 14px;
+}
+
 .categories-money__expenses {
   color: red;
-  font-size: 24px;
+  font-size: 12px;
 }
 
 .categories-money__income {
   color: green;
-  font-size: 24px;
+  font-size: 12px;
 }
 
 .categories__card_g {
@@ -75,28 +91,20 @@
 .categories__card {
   /*background-color: skyblue;*/
 }
+
 .categories__title {
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 11px;
+  font-weight: 400;
   margin-bottom: 8px;
 }
+
 .categories__btn {
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 36px;
+  background-size: 24px;
   border-radius: 50%;
-}
-
-.categories__btn:hover {
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.9);
-  transition: all 0.3s ease 0s;
-}
-
-.categories__btn:focus-visible {
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.9);
-  transition: all 0.3s ease 0s;
 }
 
 .categories__card_a > .categories__btn {
@@ -137,4 +145,42 @@
 
 .categories__card_j > .categories__btn {
   background-image: url("../assets/icons/plus-icon.svg");
+}
+
+
+@media (min-width: 560px) {
+
+}
+
+@media (min-width: 820px) {
+  .categories {
+    grid-gap: 8px;
+    padding: 20px 0;
+  }
+
+  .categories__title {
+    font-size: 16px;
+  }
+
+  .categories__btn {
+    width: 60px;
+    height: 60px;
+    background-size: 36px;
+  }
+
+  .categories-money__title {
+    font-size: 24px;
+  }
+
+  .categories-money__expenses {
+    font-size: 24px;
+  }
+
+  .categories-money__income {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1120px) {
+
 }
