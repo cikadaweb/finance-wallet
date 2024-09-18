@@ -21,6 +21,12 @@
   src: url("../fonts/roboto-v32-cyrillic_latin-700.woff2") format("woff2");
 }
 
+:root {
+  --primary-color: #000000;
+  --secondary-color: #f5f5f5;
+  --font-size-base: 18px;
+}
+
 body {
   display: flex;
   justify-content: space-between;
@@ -29,11 +35,11 @@ body {
 
   min-width: 320px;
   font-family: Roboto, sans-serif;
-  font-size: 16px;
+  font-size: var(--font-size-base);
   font-weight: 400;
   line-height: 1.2;
   background-color: #ffffff;
-  color: #000;
+  color: var(--primary-color);
 }
 
 img {
